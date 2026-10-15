@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Benelyn — Web Developer and Website Specialist">
+  <title>Benelyn | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <div class="intro">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h1>Hi! I'm Benelyn</h1>
+        <p class="subtitle">Web Developer & Website Specialist</p>
+        <h2 class="platforms">
+          Webflow <span>•</span> WordPress <span>•</span> GoHighLevel
+        </h2>
+        <p class="description">
+          I build clean, responsive, and user-friendly websites that
+          look good and work well on every device.
+        </p>
+      </div>
+
+      <div class="portrait-wrap">
+        <img
+          class="portrait"
+          src="images/benelyn.png"
+          alt="Portrait of Benelyn"
+        >
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span class="arrow" aria-hidden="true">↓</span>
+        <span>Scroll to continue</span>
+      </a>
+
+      <a
+        class="linkedin"
+        href="https://www.linkedin.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span aria-hidden="true">in</span> LinkedIn
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="about section" id="about">
+      <div class="about-inner">
+        <h2>About Me</h2>
+        <div class="about-copy">
+          <p>
+            Hi! I'm Benelyn, a Web Developer with experience in
+            building, updating, and maintaining websites using Webflow
+            and WordPress. I enjoy creating clean and simple websites
+            that are easy to use, responsive, and aligned with the brand.
+          </p>
+          <p>
+            I also have experience with CMS, landing page design,
+            forms, basic SEO, website troubleshooting, and CRM
+            integrations. I'm detail-oriented, willing to learn,
+            and always focused on delivering quality work.
+          </p>
+          <p>
+            I believe a good website should not only look good but
+            also provide a smooth experience for the people using it.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Benelyn. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>\
